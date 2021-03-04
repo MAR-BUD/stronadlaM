@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<HTML class="no-js" lang="pl">
+<HEAD>
+
+  <meta charset="utf-8">
+  <title>Antoniak Budownictwo | Poproś o wycenę</title>
+  <meta name="description" content="Profesjonalna firma remontowo-budowlana Antoniak Budownictwo działająca na terenie Inowrocławia oraz okolic." />
+  <meta name="robots" content="index,follow" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="css/mobile.css" type="text/css">
+  <link rel="stylesheet" href="css/fontello.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7COpen+Sans:300,400,700%7COswald:300,400,700%7CRoboto:300,400,700,900&display=swap" rel="stylesheet">
+  <script src="html5.js" async></script>
+
+  <style>
+   BODY {background-color: #D9D9D9;}
+  </style>
+
+</HEAD>
+<BODY>
+
+ <main>
+  <!--Nazwa Firmy oraz mobilne menu-->
+  <header>
+   
+   <a href="index"><h1>Antoniak <br/> Budownictwo</h1></a>
+   
+  </header>
+  <!--Sekcje strony z sidebar-->
+  <div class="sectionWycena">
+
+   <h2>Poproś o wycenę</h2>
+
+   <form method="post" action="send_form" id="contact_form">
+   <div>
+    <label for="name">Imię*</label>
+    <input required type="text" name="name" id="name" class="formFieldmobile nameMobile" placeholder="Imię*" pattern="[a-zA-ZąĄććęęłŁńŃóÓśŚżŻŹŹ ]+">
+   </div>
+   <div>
+    <label for="email">Adres e-mail*</label>
+    <input required type="text" name="email" id="email" class="formFieldmobile emailMobile" placeholder="Adres e-mail*" pattern="[^@\s]+@[^@\s]+\.[^@\s]+">
+   </div>
+   <div>
+    <label for="message">Opis*</label>
+    <textarea required name="message" id="message" class="formFieldmobile desc descMobile" placeholder="Opis*"></textarea>
+   </div>
+   <input required type="checkbox" class="regular-checkboxmobile"/><label class="checkboxlabelmobile">Wyrażam zgodę na przetwarzanie moich danych osobowych przez Antoniak Budownictwo, w celu udzielenia odpowiedzi na złożone zapytanie, jak również prowadzenie ewentualnej dalszej korespondencji związanej ze złożonym zapytaniem.*</label>
+   <label class="labelMobile">* Pola obowiązkowe</label>
+   <div>
+    <button type="submit" id="sendBtn" class="sendBtnmobile"></button>
+   </div>
+   </form>
+
+   <div class="mobilelefttriangle"></div>
+
+  </div>
+ 
+ </main>
+
+ <script src="js/script.js"></script>
+ <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+ <script>
+ $(document).ready(function() {
+  $("html").on("submit","#contact_form",function(e){
+    e.preventDefault();
+    $("#send_form_status").html('').hide();
+    var data=$("#contact_form").serialize();
+    $.post("/send_form.php",data,function(res){
+      $("#send_form_status").html(res.msg).show();
+      if(res.status==1){ 
+        $("#contact_form")[0].reset();
+      } 
+    });
+  });
+ });
+ </script>
+ 
+</BODY>
+</HTML>

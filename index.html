@@ -1,0 +1,379 @@
+<!DOCTYPE HTML>
+<HTML class="no-js" lang="pl">
+<HEAD>
+
+  <meta charset="utf-8">
+  <title>Antoniak Budownictwo | Firma Remontowo-Budowlana</title>
+  <meta name="description" content="Profesjonalna firma remontowo-budowlana Antoniak Budownictwo działająca na terenie Inowrocławia oraz okolic." />
+  <meta name="robots" content="index,follow" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="css/mobile.css" type="text/css">
+  <link rel="stylesheet" href="css/fontello.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7COpen+Sans:300,400,700%7COswald:300,400,700%7CRoboto:300,400,700,900&display=swap" rel="stylesheet">
+  <script src="html5.js" async></script>
+
+  <meta name="google-site-verification" content="WaWdN-hPl6yzSAKdsFaXDQ0UKgWPgCz7EZqQbG9UdQY" />
+
+  <!--[if lt IE 9]>
+   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+  <![endif]-->
+
+</HEAD>
+<BODY>
+
+ <main>
+
+  <a href="tel:515654051"><div class="callnow"></div></a>
+
+  <button onclick="topFunction()" id="scrollup"></button>
+  <aside class="quick-info">
+    <div class="quicksquarein"></div>
+    <img class="img-emptyprofile" src="img/empty-profile.png" alt=""/>
+    <h2>Piotr</h2>
+    <div class="before-imgempprof"></div>
+    <p>"Godna polecenia firma. Pracowali u mnie dwa tygodnie, w tym czasie udało im się do stanu deweloperskiego doprowadzić mieszkanie pod klucz. Jestem bardzo zadowolony."</p>
+    <h3>Jakość usługi: <span>wysoka<span></h3>
+  </aside>
+  <!--Nazwa Firmy oraz mobilne menu-->
+  <header>
+
+   <div class="status"></div>
+   
+   <h1><a href="index">Antoniak <br/> Budownictwo</a></h1>
+
+   <!--Mobilny Hamburger-->
+   <button class="hamburger">
+    <span class="hamburger-box">
+     <span class="hamburger-inner"></span>
+    </span>
+   </button>
+ 
+   <!--Mobilny Navbar-->
+   <div class="navigation">
+     <ul class="navigation-list">
+       <li class="navigation-item first-item">
+         <a href="#sectionServices">Usługi</a>
+       </li>
+       <li class="navigation-item second-item">
+         <a href="#sectionGallery">Galeria</a>
+       </li>
+       <li class="navigation-item third-item">
+         <a href="#sectionContact">Kontakt</a>
+       </li>
+       <li class="navigation-item fourth-item">
+        <a href="#">Cennik</a>
+       </li>
+       <!--
+       <li class="navigation-item-last">
+         <a href="#">faq</a>
+       </li>
+       -->
+     </ul>
+   </div>
+   
+  </header>
+  <!--Menu desktop-->
+  <section>
+    <nav>
+      
+      <ul class="desktop-navigation">
+        <li class="desktopnavigation-item firstitem">
+          <a href="#sectionServicesdesktop">Usługi</a>
+        </li>
+        <li class="desktopnavigation-item seconditem">
+          <a href="#sectionGallerydesktop">Galeria</a>
+        </li>
+        <li class="desktopnavigation-item thirditem">
+          <a href="#sectionContactdesktop">Kontakt</a>
+        </li>
+      </ul>
+      
+    </nav>
+  </section>
+  <!--Formularz "Poproś o wycenę"-->
+  <div class="hiddensection">
+    
+    <button type="button" class="myBtn myBtnDesktopnone" onclick="window.location.href = 'mobilewycena';"></button>
+    <button type="button" class="myBtn myBtnMobilenone" id="myBtn"></button>
+    <div id="myModal" class="modal">
+     <div class="modal-content">
+       <div class="modal-header">
+        <h2>Poproś o wycenę</h2>
+        <span class="close">&times;</span>
+       </div>
+       <div class="modal-section">
+        
+        <form method="post" action="send_form" id="contact_form">
+          <div>
+            <label for="name">Imię*</label>
+            <input required type="text" name="name" id="name" class="formField name" placeholder="Imię*" pattern="[a-zA-ZąĄććęęłŁńŃóÓśŚżŻŹŹ ]+">
+          </div>
+          <div>
+            <label for="email">Adres e-mail*</label>
+            <input required type="text" name="email" id="email" class="formField" placeholder="Adres e-mail*" pattern="[^@\s]+@[^@\s]+\.[^@\s]+">
+          </div>
+          <div>
+            <label for="message">Opis*</label>
+            <textarea required name="message" id="message" class="formField desc" placeholder="Opis*"></textarea>
+          </div>
+          <label class="checkboxlabel">Wyrażam zgodę na przetwarzanie moich danych osobowych przez Antoniak Budownictwo, w celu udzielenia odpowiedzi na złożone zapytanie, jak również prowadzenie ewentualnej dalszej korespondencji związanej ze złożonym zapytaniem.*</label><input required type="checkbox" id="checkbox-1-1" class="regular-checkbox"/>
+          <label class="label">* Pola obowiązkowe</label>
+          <div>
+            <button type="submit" id="sendBtn" class="sendBtn"></button>
+          </div>
+        </form>
+
+       </div>
+       <div class="modallinein"></div>
+       <div class="modalsquarein"></div>
+     </div>
+    </div>
+
+  </div>
+  <!--Sekcje strony z sidebar-->
+  <div class="mobilesection">
+
+    <h2>O nas</h2>
+
+    <p>Jesteśmy profesjonalną firmą działającą na terenie Inowrocławia oraz okolic. Nasza oferta skierowana jest do każdego klienta poszukującego sprawnej ekipy, która wykona zlecone prace, zgodnie ze sztuką budowlaną, a co najważniejsze w terminie. Wychodząc naprzeciw naszym Klientom, oferujemy kompleksową obsługę inwestycji proponując Państwu szeroki wachlarz naszych usług. Serdecznie zapraszamy do zapoznania się z naszą ofertą. Zapytania ofertowe prosimy kierować drogą telefoniczną lub mailową podaną w zakładce <a href="#sectionContact">kontakt</a>.</p>
+
+    <div class="sectionServices" id="sectionServices">
+
+     <h2>Usługi</h2>
+
+     <div class="servicesitems">
+      <div class="services-itemmobile">
+        <div class="services-itemdescription">
+          <h3>Kompleksowe wykończenia wnętrz pod klucz</h3>
+        </div>
+        <img class="img-servicesitemmobile" src="img/imgservicesfirst.jpg" alt=""/>
+        <a href="#sectionContact">Zamów</a>
+      </div>
+      <div class="services-itemmobile">
+        <div class="services-itemdescription">
+          <h3>Szpachlowanie <br/> maszynowe</h3>
+        </div>
+        <img class="img-servicesitemmobile" src="img/imgservicessecond.jpg" alt=""/>
+        <a href="#sectionContact">Zamów</a>
+      </div>
+      <div class="services-itemmobile">
+        <div class="services-itemdescription">
+          <h3>Budowa <br/> domów</h3>
+        </div>
+        <img class="img-servicesitemmobile" src="img/imgservicesthird.png" alt=""/>
+        <a href="#sectionContact">Zamów</a>
+      </div>
+      <div class="services-itemmobile">
+        <div class="services-itemdescription">
+          <h3>Adaptacja <br/> pomieszczeń</h3>
+        </div>
+        <img class="img-servicesitemmobile" src="img/imgservicesfourth.jpg" alt=""/>        
+        <a href="#sectionContact">Zamów</a>
+      </div>
+      <div class="services-itemmobile">
+        <div class="services-itemdescription">
+          <h3>Instalacje <br/> WOD.-KAN.</h3>
+        </div>
+        <img class="img-servicesitemmobile" src="img/imgservicesfifth.jpg" alt=""/>
+        <a href="#sectionContact">Zamów</a>
+      </div>
+      <div class="services-itemmobile">
+        <div class="services-itemdescription">
+          <h3>Usługi <br/> elektryczne</h3>
+        </div>
+        <img class="img-servicesitemmobile" src="img/imgservicessixth.jpg" alt=""/>
+        <a href="#sectionContact">Zamów</a>
+      </div>
+     </div>
+
+    </div>
+
+    <div class="sectionGallery" id="sectionGallery">
+
+     <h2>Galeria</h2>
+
+     <p>Brak danych do wyświetlenia, za utrudnienia przepraszamy.</p>
+
+    </div>
+
+    <div class="sectionOpinion">
+
+      <img class="img-emptyprofile" src="img/empty-profile.png" alt=""/>
+
+      <h2>Piotr</h2>
+      <div class="before-imgempprof mobilebefimgprof"></div>
+      <p>"Godna polecenia firma. Pracowali u mnie dwa tygodnie, w tym czasie udało im się do stanu deweloperskiego doprowadzić mieszkanie pod klucz. Jestem bardzo zadowolony."</p>
+      <h3>Jakość usługi: <span>wysoka<sp></h3>
+
+    </div>
+
+    <div class="sectionContact" id="sectionContact">
+
+     <h2>Kontakt</h2>
+
+     <i class="icon-address-card-o"></i>
+     <h3>Antoniak Budownictwo</h3>
+     <h4>NIP 5562749220 <br/> <span>REGON 341625641</span></h4>
+
+     <i class="icon-location-outline"></i>
+     <h4>88-100 Inowrocław <br/> ul. Szymborska 6</h4>
+
+     <i class="icon-phone"></i>
+     <h5>+48 515654051</h5>
+
+     <i class="icon-mail"></i>
+     <h5>kontakt&#64;antoniakbudownictwo.pl</h5>
+
+     <a href="https://www.facebook.com/Antoniak-Budownictwo-112959063439839/"><img class="img-social" src="img/facebook.png" alt=""/></a>
+     <a href="https://www.oferteo.pl/antoniak-budownictwo/firma/4020406"><img class="img-workpage" src="img/oferteo.png" alt=""/></a>
+
+    </div>
+
+    <div class="sectionFooter">
+
+      <span>&copy Copyright 2019 | Antoniak Budownictwo
+      <a href="https://pl.freepik.com/darmowe-zdjecie-wektory/tlo" target="_blank">People plik wektorowy, Tło plik wektorowy utworzone przez macrovector - pl.freepik.com</a> <a href="https://pl.freepik.com/darmowe-zdjecie-wektory/biznes" target="_blank">Biznes plik wektorowy utworzone przez freepik - pl.freepik.com</a> <a href="https://pl.freepik.com/darmowe-zdjecie-wektory/sztandar" target="_blank">Sztandar plik wektorowy utworzone przez vectorpouch - pl.freepik.com</a> <a href="LICENSE.txt">Font License</a> <a href="http://nie-spamuj.eu/email.php">Ochrona przed spamem</a>
+      </span>  
+
+    </div>
+
+  </div>
+  <!--Grafika na stronę główną-->
+  <div class="second-header">
+    
+    <img class="img-headesc" src="img/uslugi_remontowe.png" alt="Najlepsza Firma Remontowo-Budowlana w Twoim Mieście"/>
+
+    <div class="doublesecond-header">
+
+     <img class="img-headerhouse" src="img/header-house.png" alt=""/>
+
+    </div>
+
+  </div>
+  <div class="left-triangle">
+    <h2>O nas</h2>
+  </div>
+  <div class="sectionAboutdesktop">
+    
+    <img class="img-about" src="img/about.png" alt=""/>
+
+    <p>Jesteśmy profesjonalną firmą działającą na terenie Inowrocławia oraz okolic. Nasza oferta skierowana jest do każdego klienta poszukującego sprawnej ekipy, która wykona zlecone prace, zgodnie ze sztuką budowlaną, a co najważniejsze w terminie. Wychodząc naprzeciw naszym Klientom, oferujemy kompleksową obsługę inwestycji proponując Państwu szeroki wachlarz naszych usług. Serdecznie zapraszamy do zapoznania się z naszą ofertą. Zapytania ofertowe prosimy kierować drogą telefoniczną lub mailową podaną w zakładce <a href="#sectionContactdesktop">kontakt</a>.</p>
+    
+  </div>
+  <div class="right-triangle" id="sectionServicesdesktop">
+    <h2>Usługi</h2>
+  </div>
+  <div class="sectionServicesdesktop">
+    
+    <img class="img-services" src="img/services.png" alt=""/>
+
+    <div class="servicesitems">
+     <div class="services-item servicesitem-bcgfirst">
+       <div class="services-itemdescdesktop">
+        <h2>Kompleksowe wykończenia wnętrz pod klucz</h2>
+        <a href="#sectionContactdesktop">Zamów</a>
+       </div>
+     </div>
+     <div class="services-item services-itemsecond servicesitem-bcgsecond">
+       <div class="services-itemdescdesktop">
+        <h2>Szpachlowanie <br/> maszynowe</h2>
+        <a href="#sectionContactdesktop">Zamów</a>
+       </div>
+     </div>
+     <div class="services-item services-itemthird servicesitem-bcgthird">
+       <div class="services-itemdescdesktop">
+        <h2>Budowa <br/> domów</h2>
+        <a href="#sectionContactdesktop">Zamów</a>
+       </div>
+     </div>
+     <div class="services-item services-itemfourth servicesitem-bcgfourth">
+       <div class="services-itemdescdesktop">
+        <h2>Adaptacja <br/> pomieszczeń</h2>
+        <a href="#sectionContactdesktop">Zamów</a>
+       </div>
+     </div>
+     <div class="services-item servicesitem-bcgfifth">
+       <div class="services-itemdescdesktop">
+        <h2>Instalacje <br/> WOD.-KAN.</h2>
+        <a href="#sectionContactdesktop">Zamów</a>
+       </div>
+     </div>
+     <div class="services-item services-itemsecond servicesbottom servicesitem-bcgsixth">
+       <div class="services-itemdescdesktop">
+        <h2>Usługi <br/> elektryczne</h2>
+        <a href="#sectionContactdesktop">Zamów</a>
+       </div>
+     </div> 
+    </div>
+
+  </div>
+  <div class="left-triangle" id="sectionGallerydesktop">
+    <h3>Galeria</h3>
+  </div>
+  <div class="sectionGallerydesktop">
+    <p>Brak danych do wyświetlenia, za utrudnienia przepraszamy.</p>
+  </div>
+  <div class="right-triangle" id="sectionContactdesktop">
+    <h3>Kontakt</h3>
+  </div>
+  <div class="sectionContactdesktop">
+    
+    <img class="img-contact" src="img/contact.png" alt=""/>
+
+    <div class="contactitem">
+     
+     <img class="img-helm" src="img/helm.png" alt=""/>
+
+     <div class="infocontactdesktop">
+      <i class="icon-address-card-odesktop"></i>
+      <h2>Antoniak Budownictwo</h2>
+      <h3>NIP 5562749220 <br/> REGON 341625641</h3>
+      
+      <i class="icon-location-outlinedesktop"></i>
+      <h4>88-100 Inowrocław <br/> ul. Szymborska 6</h4>
+
+      <i class="icon-phonedesktop"></i>
+      <h5>+48 515654051</h5>
+
+      <i class="icon-maildesktop"></i>
+      <h5><span>kontakt&#64;antoniakbudownictwo.pl</span></h5>
+
+      <a href="https://www.facebook.com/Antoniak-Budownictwo-112959063439839/"><img class="img-social img-socialdesktop" src="img/facebook.png" alt=""/></a>
+      <a href="https://www.oferteo.pl/antoniak-budownictwo/firma/4020406"><img class="img-workpage" src="img/oferteo.png" alt=""/></a>
+
+     </div>
+     <div class="formmesscontactdesktop"></div>
+     
+    </div>
+  </div>
+
+  <footer>
+   <span>&copy Copyright 2019 | Antoniak Budownictwo <br/> 
+    <a href="https://pl.freepik.com/darmowe-zdjecie-wektory/tlo" target="_blank">People plik wektorowy, Tło plik wektorowy utworzone przez macrovector - pl.freepik.com</a> | <a href="https://pl.freepik.com/darmowe-zdjecie-wektory/biznes" target="_blank">Biznes plik wektorowy utworzone przez freepik - pl.freepik.com</a> | <a href="https://pl.freepik.com/darmowe-zdjecie-wektory/sztandar" target="_blank">Sztandar plik wektorowy utworzone przez vectorpouch - pl.freepik.com</a> | <a href="LICENSE.txt">Font License</a> | <a href="http://nie-spamuj.eu/email.php">Ochrona przed spamem</a>
+   </span>
+  </footer>
+  
+ </main>
+
+ <script src="js/script.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script>
+ $(document).ready(function() {
+  $("html").on("submit","#contact_form",function(e){
+    e.preventDefault();
+    $("#send_form_status").html('').hide();
+    var data=$("#contact_form").serialize();
+    $.post("/send_form.php",data,function(res){
+      $("#send_form_status").html(res.msg).show();
+      if(res.status==1){ 
+        $("#contact_form")[0].reset();
+      } 
+    });
+  });
+ });
+ </script> 
+ 
+</BODY>
+</HTML>
