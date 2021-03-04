@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?26457855');
+  src: url('../font/fontello.eot?26457855#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?26457855') format('woff2'),
+       url('../font/fontello.woff?26457855') format('woff'),
+       url('../font/fontello.ttf?26457855') format('truetype'),
+       url('../font/fontello.svg?26457855#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?26457855#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-location-outline:before { content: '\e800'; display: block; margin: 15px auto 0 auto; font-size: 36px; color: #111111;} /* '' */
+.icon-phone:before { content: '\e801'; display: block; margin: 15px auto 0 auto; font-size: 36px; color: #111111;} /* '' */
+.icon-mail:before { content: '\e802'; display: block; margin: 15px auto 0 auto; font-size: 36px; color: #111111;} /* '' */
+.icon-address-card-o:before { content: '\f2bc'; display: block; margin: 25px auto 0 auto; font-size: 36px; color: #111111;} /* '' */
+
+.icon-location-outlinedesktop:before { content: '\e800'; position: relative; top: 15px; left: 60px; font-size: 46px; color: #206FB0;} /* '' */
+.icon-phonedesktop:before { content: '\e801'; position: relative; top: 5px; left: 60px; font-size: 46px; color: #206FB0;} /* '' */
+.icon-maildesktop:before { content: '\e802'; position: relative; top: 5px; left: 60px; font-size: 46px; color: #206FB0;} /* '' */
+.icon-address-card-odesktop:before { content: '\f2bc'; position: relative; top: 40px; left: 60px; font-size: 46px; color: #206FB0;} /* '' */
+
+@media screen and (max-width: 1250px) and (min-width: 1100px) 
+{
+  .icon-location-outlinedesktop:before { content: '\e800'; top: 10px; left: 5px;} /* '' */
+  .icon-phonedesktop:before { content: '\e801'; top: 5px; left: 5px;} /* '' */
+  .icon-maildesktop:before { content: '\e802'; top: 5px; left: 5px;} /* '' */
+  .icon-address-card-odesktop:before { content: '\f2bc'; top: 40px; left: 5px;} /* '' */
+}
+
+@media screen and (max-width: 1100px) and (min-width: 1000px) 
+{
+  .icon-location-outlinedesktop:before { content: '\e800'; left: 10px; font-size: 40px;} /* '' */
+  .icon-phonedesktop:before { content: '\e801'; left: 10px; font-size: 40px;} /* '' */
+  .icon-maildesktop:before { content: '\e802'; left: 10px; font-size: 40px;} /* '' */
+  .icon-address-card-odesktop:before { content: '\f2bc'; left: 10px; font-size: 40px;} /* '' */
+}
+
+@media screen and (max-width: 1000px) and (min-width: 800px) 
+{
+  .icon-location-outlinedesktop:before { content: '\e800'; display: block; top: 0; left: 0; margin: 5px auto 0 auto; font-size: 36px;} /* '' */
+  .icon-phonedesktop:before { content: '\e801'; display: block; top: 0; left: 0; margin: -15px auto 0 auto; font-size: 36px;} /* '' */
+  .icon-maildesktop:before { content: '\e802'; display: block; top: 0; left: 0; margin: 5px auto 0 auto; font-size: 36px;} /* '' */
+  .icon-address-card-odesktop:before { content: '\f2bc'; display: block; top: 0; left: 0; margin: 5px auto 0 auto;  font-size: 36px;} /* '' */
+}

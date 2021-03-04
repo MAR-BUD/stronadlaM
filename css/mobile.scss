@@ -1,0 +1,109 @@
+@media screen and (max-width: 1250px) and (min-width: 1100px) 
+{
+	.doublesecond-header {width: 394px; right: 117px;} .img-headerhouse {width: 462px; height: 323px; right: 64px; bottom: 15px;}
+	.hiddensection {width: 394px; right: 117px;} .myBtn, .myBtn::before {width: 227px;}
+	.img-headesc {width: 946px; height: 130px; margin-top: 20px;}
+	.sectionAboutdesktop {p {font-size: 28px; padding: 30px 130px 30px 130px;}}
+	.sectionGallerydesktop {p {padding-left: 170px;}}
+	.services-item {width: 460px; background-size: 460px 230px;} .services-itemdescdesktop {width: 456px; a{margin-left: 183px;}}
+	.sectionContactdesktop {height: 760px;}
+	.contactitem {height: 470px; top: 30px;}
+	.infocontactdesktop {height: 420px; left: 15px; h2,h3,h4,h5 {left: 70px;}} .infocontactdesktop::after {right: -20px;} 
+    .formmesscontactdesktop {height: 420px; left: 50px;} .img-socialdesktop {top: -20px;} .img-workpage {top: -70px;}
+}
+
+@media screen and (max-width: 1100px) and (min-width: 1000px) 
+{
+	header {height: 98px;}
+	header h1 {font-size: 46px;}
+	section {height: 386px;} .desktop-navigation {top: 0; left: 95px;}
+	.second-header {margin-top: -359px;} .img-headesc {width: 866px; height: 130px; margin-top: 20px;}
+	.doublesecond-header {width: 370px; height: 222px; top: 15px; right: 108px;} .img-headerhouse {width: 432px; height: 283px; right: 60px; bottom: 10px;}
+	nav {height: 222px; top: 157px;} 
+	.hiddensection {width: 370px; right: 108px; top: 402px;} 
+	.myBtn {width: 227px; left: 71.5px;} .myBtn::before {width: 227px;} 
+	.left-triangle {border-top: 180px solid transparent; border-left: 260px solid #D9D9D9; border-bottom: 180px solid transparent;
+	 h2 {top: -50px; left: -230px;}
+	 h3 {top: -50px; left: -255px;}}
+	 .right-triangle {border-top: 180px solid transparent; border-right: 260px solid #D9D9D9; border-bottom: 180px solid transparent;
+	 h2 {left: 55px;}
+	 h3 {font-size: 58px; left: 40px; top: -35px;} h3::before {top: 65px; left: 55px;}}
+	 .img-about {padding-top: 10px;}
+	 .sectionAboutdesktop {p {font-size: 26px; padding: 30px 90px 30px 90px;}}
+	 .services-itemsecond, .services-itemfourth {margin: 0 auto;} .services-itemthird {margin: 20px auto;} .servicesbottom {margin: 0 auto 40px;}
+	 .img-services {padding-top: 0;}
+	 .sectionContactdesktop {height: 700px;}
+	 .contactitem {height: 440px;} .img-contact {width: 210px; height: 210px;}
+	 .infocontactdesktop {height: 390px; left: 15px; h2,h3,h4,h5 {left: 70px;} span {font-size: 21px;}} .infocontactdesktop::after {right: -20px;} 
+	 .formmesscontactdesktop {height: 390px; left: 50px;} .img-socialdesktop {top: -20px;} .img-workpage {top: -70px;}
+}
+
+@media screen and (max-width: 1000px) and (min-width: 800px) 
+{
+	header {height: 88px;}
+	header h1 {font-size: 42px; letter-spacing: 5px;}
+	section {height: 386px;} .desktop-navigation {top: 0;} .desktopnavigation-item {margin-bottom: -5px;}
+	.second-header {height: 130px; margin-top: -359px;} nav {height: 207px; top: 137px;}
+	.img-headesc {width: 686px; height: 103px; margin-top: 28px;}
+	.doublesecond-header {width: 340px; height: 207px; top: 17px; right: 98px;} .img-headerhouse {width: 392px; height: 253px; right: 52px; bottom: 5px;} .hiddensection {width: 340px; right: 98px; top: 364px;} .myBtn {left: 66.5px;} .myBtn, .myBtn::before {width: 207px; height: 45px; font-size: 24px;} 
+	.left-triangle {border-top: 150px solid transparent; border-left: 230px solid #D9D9D9; border-bottom: 150px solid transparent;
+	 h2 {width: 150px; font-size: 58px; top: -40px; left: -220px;} h2::before {top: 65px; width: 104px; left: 20px;}
+	 h3 {width: 150px; font-size: 58px; top: -40px; left: -225px;} h3::before {top: 65px; left: 20px;}}
+	 .right-triangle {margin-top: -70px; border-top: 150px solid transparent; border-right: 230px solid #D9D9D9; border-bottom: 150px solid transparent;
+	 h2 {font-size: 58px; left: 55px; top: -35px;} h2::before {top: 62px; width: 92px;}
+	 h3 {font-size: 52px; left: 35px; top: -30px;} h3::before {width: 124px; left: 45px; top: 60px;}}
+	 .img-about {width: 125px; height: 125px; padding-top: 5px;}
+	 .sectionAboutdesktop {p {font-size: 22px; padding: 20px 60px 20px 60px;}}
+	 .sectionGallerydesktop {p {font-size: 42px; padding: 110px 80px 20px 80px;}}
+	 .services-itemsecond, .services-itemfourth {margin: 0 auto;} .services-itemthird {margin: 20px auto;} .servicesbottom {margin: 0 auto 40px;}
+	 .img-services {width: 200px; height: 200px;}
+	 .sectionContactdesktop {height: 680px;}
+	 .contactitem {height: 450px;} .img-contact {width: 180px; height: 180px;} .img-helm {width: 217px; height: 145px;}
+	 .infocontactdesktop {height: 400px; left: 15px; h2{font-size: 24px; left: 0; text-align: center;} h3{font-size: 20px; left: 0; margin: 0 auto; width: 180px; background-color: transparent;} h4{font-size: 20px; left: 0; margin: 20px auto 0 auto; width: 180px; background-color: transparent;} h5 {font-size: 20px; text-align: center; top: 0; left: 0;}} .infocontactdesktop::after {right: -15px;} 
+	 .formmesscontactdesktop {height: 400px; left: 40px;}
+}
+
+@media screen and (max-width: 800px) and (min-width: 500px) 
+{
+	.quick-info {display: none;}
+	header
+	{position: fixed; width: 100%; background-color: #206FB0; margin-left: 0; margin-right: 0; top: 0; border: none; height: 80px; -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.65);
+-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.65);
+box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.65); z-index: 3;}
+    header h1
+	{ text-transform: none; font-size: 1.8em; font-weight: 700; letter-spacing: 0; text-align: left; padding-top: 5px; padding-left: 12px; margin: 0;}
+	header br {display: block;}
+	.hamburger, .navigation {display: block;}
+	section {width: 100%; height: 395px; top: 0; margin-top: 80px; margin-left: 0; margin-right: 0; border: 0; background-image: url('../img/background.jpg'); background-size: 800px 410px; background-position: center; z-index: -1;} nav {display: none;} .hiddensection {width: 100%; height: 115px; right: 0; top: 270px; z-index: 0;} .mobilesection {display: block;} .img-emptyprofile {width: 100px; height: 100px;} .myBtnMobilenone {display: none;} .myBtnDesktopnone {display: block;} .myBtn {top: -20px; left: 0; right: 0; bottom: 0; margin: auto; border: 4px solid #206FB0;} .myBtn::before {color: #206FB0;} .myBtn:hover::before {color: #D9D9D9;} .sectionWycena {h2 {font-size: 38px;} h2::before {width: 240px; top: 70px; left: 70px;}} .modal {display: none;} .modal-content {width: 430px;} .formField, .label {margin-left: 65px;} .sendBtn {left: 65px;} .sendBtnmobile {top: 405px;}
+	.second-header {display: none;}
+	.left-triangle {display: none;} .right-triangle {display: none;} 
+	.sectionAboutdesktop, .sectionServicesdesktop, .sectionGallerydesktop, .sectionContactdesktop {display: none;}
+	.callnow {display: block;}
+	.services-itemmobile {width: 460px; a {margin-left: 190px;}}
+	.img-servicesitemmobile {width: 456px;} .services-itemdescription {width: 456px; padding: 0 10px 0 10px;}
+
+	footer {display: none;}
+}
+
+@media screen and (max-width: 500px) 
+{
+	.quick-info {display: none;}
+	header
+	{position: fixed; width: 100%; background-color: #206FB0; margin-left: 0; margin-right: 0; top: 0; border: none; height: 80px; -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.65);
+-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.65);
+box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.65); z-index: 3;}
+    header h1
+	{text-transform: none; font-size: 1.7em; font-weight: 700; letter-spacing: 0; text-align: left; padding-top: 5px; padding-left: 12px; margin: 0;}
+	header br {display: block;} 
+	.hamburger, .navigation {display: block;} 
+	section {width: 100%; height: 395px; top: 0; margin-top: 80px; margin-left: 0; margin-right: 0; border: 0; background-color: #111111; background-image: url('../img/background.jpg'); background-position: center; z-index: -1;} nav {display: none;} .hiddensection {width: 100%; height: 115px; right: 0; top: 270px; z-index: 0;} .myBtnMobilenone {display: none;} .myBtnDesktopnone {display: block;} .myBtn {top: -20px; left: 0; right: 0; bottom: 0; margin: auto; border: 4px solid #206FB0;} .myBtn::before {color: #206FB0;} .myBtn:hover::before {color: #D9D9D9;} .modal {display: none;} .modal-content {width: 330px;} .modallinein {display: none;} .formField, .label {margin-left: 15px;} .sendBtn {left: 15px;}
+	.mobilesection {display: block;} .img-emptyprofile {width: 90px; height: 90px;}
+	.second-header {display: none;}
+	.left-triangle {display: none;} .right-triangle {display: none;} 
+	.sectionAboutdesktop, .sectionServicesdesktop, .sectionGallerydesktop, .sectionContactdesktop {display: none;}
+    .callnow {display: block;}
+
+	footer {display: none;}
+}
+
+/* top: -20px; left: 0; right: 0; bottom: 0; margin: auto; */ 
